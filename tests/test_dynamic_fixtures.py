@@ -1,6 +1,6 @@
 import logging
 
-from dynamic.dynamic_fixture import dynamic_fixture
+from pytest_dynamic_fixtures.dynamic_fixture import dynamic_fixture
 
 
 @dynamic_fixture(args_list=[("jack",), ("bill",)],
