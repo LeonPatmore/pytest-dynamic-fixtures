@@ -8,11 +8,11 @@ with open(os.path.join(HERE, 'README.md')) as f:
     README = f.read()
 
 setup(
-    name='library-name',
+    name='pytest-dynamic-fixtures',
     long_description=README,
     version='0.0.1',
-    install_requires=[],
-    packages=["example"],
+    install_requires=["pytest"],
+    packages=["pytest_dynamic_fixtures"],
     author='Leon Patmore',
     description=''
 )
